@@ -18,8 +18,11 @@ I just made a Python wrapper for the Telnet application.
 
 setup(
     packages=find_packages(),
+    package_data={
+        'george_lucas': ['data/*']
+    },
     name='george_lucas',
-    version='0.1.0',
+    version='0.2.0',
     description='Plays "A New Hope" on import',
     long_description=long_description,
     author = "Dillon Niederhut",
