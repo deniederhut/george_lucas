@@ -22,7 +22,7 @@ setup(
         'george_lucas': ['data/*']
     },
     name='george_lucas',
-    version='0.2.0',
+    version='0.2.1',
     description='Plays "A New Hope" on import',
     long_description=long_description,
     author = "Dillon Niederhut",
